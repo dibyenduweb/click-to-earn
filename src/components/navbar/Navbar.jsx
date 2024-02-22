@@ -1,30 +1,40 @@
-
+import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  const handleScroll = () => {
+    const scrolled = window.scrollY > 0;
+    setIsScrolled(scrolled);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   const NavLinks = () => (
     <>
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/">About</NavLink>
-      <NavLink to="/">Service</NavLink>
-      <NavLink to="/">Plans</NavLink>
-      <NavLink to="/">Blogs</NavLink>
-      <NavLink to="/">Suppurt</NavLink>
+      <NavLink to="/"><li className="list-none text-xl text-white font-bold">Home</li></NavLink>
+      <NavLink to="/"><li className="list-none text-xl text-white font-bold">About</li></NavLink>
+      <NavLink to="/"><li className="list-none text-xl text-white font-bold">Service</li></NavLink>
+      <NavLink to="/"><li className="list-none text-xl text-white font-bold">Plans</li></NavLink>
+      <NavLink to="/"><li className="list-none text-xl text-white font-bold">Blogs</li></NavLink>
+      <NavLink to="/"><li className="list-none text-xl text-white font-bold">Support</li></NavLink>
+      <NavLink to="/"><li className="list-none text-xl text-white bg-green-500 p-2 rounded-md font-bold">Login</li></NavLink>
     </>
   );
 
   return (
-    <div>
-    {/* <div className=" flex bg-slate-600 justify-end list-none  space-x-4 px-6">
-      <li>Login</li>
-      <li>SignUp</li>
-    </div> */}
-      <div className="flex bg-slate-700 justify-between p-2">
+    <div className={`fixed top-0 left-0 w-full p-1 z-50 duration-300 ${isScrolled ? 'bg-sky-900' : 'bg-transparent'}`}>
+      <div className="flex items-center justify-around p-4">
         <div>
-          <h1>Click.com</h1>
+          <h1 className="text-orange-500  text-3xl font-bold ">Click <span className="text-4xl text-amber-400">2</span> Earn</h1>
         </div>
-       
-        <div className="flex space-x-6 ">
+        <div className="flex items-center space-x-6">
           <NavLinks />
         </div>
       </div>
