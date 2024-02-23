@@ -14,12 +14,12 @@ const Navbar = () => {
   );
 
   return (
-    <div>
-    {/* <div className=" flex bg-slate-600 justify-end list-none  space-x-4 px-6">
+    <div className="z-20 fixed bg-opacity-30 text-black w-full border">
+    {/* <div className="flex bg-slate-600 justify-end list-none  space-x-4 px-6">
       <li>Login</li>
       <li>SignUp</li>
     </div> */}
-      <div className="flex bg-slate-700 justify-between p-2">
+      <div className="flex bg-transparent justify-between p-2">
         <div>
           <h1>Click.com</h1>
         </div>
