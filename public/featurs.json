@@ -1,41 +1,48 @@
-// import { FaBeer, FaCoffee, FaCar, FaLaptop, FaCode, FaRocket } from 'react-icons/fa';
 
 [
     {
       "id": 1,
-      "title": "Card 1",
-      "description": "Description for Card 1",
+      "title": "We're Certified",
+      "description": "Voluptatibus at vero, amet sit esse sequi quam odio debitis. Nulla porro tenetur adipisci laborum sunt repellendus error, asperiores quam nobis sit!",
       "icon": "FaBeer" 
     },
     {
       "id": 2,
-      "title": "Card 2",
-      "description": "Description for Card 2",
+      "title": "We're Secure",
+      "description": "Voluptatibus at vero, amet sit esse sequi quam odio debitis. Nulla porro tenetur adipisci laborum sunt repellendus error, asperiores quam nobis sit!",
       "icon": "FaCoffee" 
     },
     {
       "id": 3,
-      "title": "Card 3",
-      "description": "Description for Card 3",
+      "title": "We're Profitable",
+      "description": "Voluptatibus at vero, amet sit esse sequi quam odio debitis. Nulla porro tenetur adipisci laborum sunt repellendus error, asperiores quam nobis sit!",
       "icon": "FaCar"
     },
     {
       "id": 4,
-      "title": "Card 4",
-      "description": "Description for Card 4",
+      "title": "We Accept Crypto",
+      "description": "Voluptatibus at vero, amet sit esse sequi quam odio debitis. Nulla porro tenetur adipisci laborum sunt repellendus error, asperiores quam nobis sit!",
       "icon": "FaLaptop"
     },
     {
       "id": 5,
-      "title": "Card 5",
-      "description": "Description for Card 5",
+      "title": "Best Support",
+      "description": "Voluptatibus at vero, amet sit esse sequi quam odio debitis. Nulla porro tenetur adipisci laborum sunt repellendus error, asperiores quam nobis sit!",
       "icon": "FaCode" 
     },
     {
       "id": 6,
-      "title": "Card 6",
-      "description": "Description for Card 6",
+      "title": "We're Global",
+      "description": "Voluptatibus at vero, amet sit esse sequi quam odio debitis. Nulla porro tenetur adipisci laborum sunt repellendus error, asperiores quam nobis sit!",
       "icon": "FaRocket" 
     }
   ]
   
+
+
+  
+
+
+
+
+

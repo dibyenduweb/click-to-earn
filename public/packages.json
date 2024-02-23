@@ -1,0 +1,36 @@
+[
+    {
+      "id": 1,
+      "name": "SMART",
+      "price": 100.00,
+      "details": {
+        "dailyLimit": 100,
+        "referralBonus": "Upto 10 Level",
+        "planPrice": "100.00 USD",
+        "validity": "60 Days"
+      }
+    },
+    {
+      "id": 2,
+      "name": "EXPERT",
+      "price": 200.00,
+      "details": {
+        "dailyLimit": 200,
+        "referralBonus": "Upto 10 Level",
+        "planPrice": "200.00 USD",
+        "validity": "80 Days"
+      }
+    },
+    {
+      "id": 3,
+      "name": "KING",
+      "price": 500.00,
+      "details": {
+        "dailyLimit": 500,
+        "referralBonus": "Upto 10 Level",
+        "planPrice": "500.00 USD",
+        "validity": "120 Days"
+      }
+    }
+  ]
+  
