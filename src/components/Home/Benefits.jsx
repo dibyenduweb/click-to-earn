@@ -10,7 +10,7 @@ const Benefits = () => {
         />
       </div>
       <div className="p-6">
-        <h1 className="text-4xl font-bold py-4">About Click2Earn</h1>
+        <h1 id="about" className="text-4xl font-bold py-4">About Click2Earn</h1>
         <p className="w-[600px]">
           Best Possible Way for Earn From Home. Temporibus eveniet commodi
           obcaecati voluptates reiciendis quis ipsum incidunt quibusdam aperiam
